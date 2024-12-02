@@ -1,0 +1,12 @@
+streamlit
+pandas
+psycopg2-binary
+wordcloud
+matplotlib
+nltk
+networkx
+transformers
+torch
+numpy
+scipy
+tensorflow
