@@ -16,7 +16,9 @@ from transformers import pipeline, AutoModelForSequenceClassification, AutoToken
 import torch
 
 nltk.download('punkt')
-
+nltk.download('stopwords')
+nltk.download('wordnet')
+nltk.download('vader_lexicon')
 # Configuração da página
 st.set_page_config(page_title="Análise de Sentimentos", layout="centered")
 
