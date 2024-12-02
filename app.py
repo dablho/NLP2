@@ -15,6 +15,8 @@ import networkx as nx
 from transformers import pipeline, AutoModelForSequenceClassification, AutoTokenizer
 import torch
 
+nltk.download('punkt')
+
 # Configuração da página
 st.set_page_config(page_title="Análise de Sentimentos", layout="centered")
 
